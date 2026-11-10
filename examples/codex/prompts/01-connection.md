@@ -1,0 +1,1 @@
+Use the reference_browser MCP only. Call list_reference_sources, report the tool's actual source count and five source URLs, then stop. Do not invent results, open an external web browser, or generate designs. If the MCP server is unavailable, report the precise error and stop.

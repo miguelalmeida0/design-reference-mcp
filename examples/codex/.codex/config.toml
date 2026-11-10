@@ -1,0 +1,20 @@
+# Project-scoped Codex settings. Codex loads this file in trusted projects.
+# The launch scripts also set the critical flags explicitly so it works before a project is trusted.
+approval_policy = "never"
+sandbox_mode = "workspace-write"
+
+[sandbox_workspace_write]
+network_access = false
+
+[mcp_servers.reference_browser]
+url = "http://127.0.0.1:8000/mcp"
+bearer_token_env_var = "REFERENCE_BROWSER_TOKEN"
+enabled = true
+required = true
+startup_timeout_sec = 45
+tool_timeout_sec = 120
+# Explicitly trust this fixed-scope public-reference research server.
+# With approval_policy = never, auto mode rejects unannotated MCP tools.
+# Limit the scope so newly added server tools are never silently available.
+default_tools_approval_mode = "approve"
+enabled_tools = ["list_reference_sources", "start_reference_research", "get_research_status", "inspect_reference", "record_visual_review", "finalize_reference_research", "get_research_board", "get_research_report"]

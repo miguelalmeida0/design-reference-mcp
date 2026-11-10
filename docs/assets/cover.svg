@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+<title id="title">Design Reference MCP</title><desc id="desc">Give design research something to stand on. Capture. Inspect. Review.</desc>
+<rect width="1200" height="400" fill="#F7F7EC"/>
+<rect x="0" y="0" width="12" height="400" fill="#003D2E"/>
+<text x="64" y="64" fill="#003D2E" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="3">DESIGN REFERENCE MCP</text>
+<text x="60" y="154" fill="#003D2E" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="700">Give design research</text>
+<text x="60" y="224" fill="#003D2E" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="700">something to stand on.</text>
+<path d="M64 270H1136" stroke="#C4CEB7"/>
+<text x="64" y="322" fill="#003D2E" font-family="Arial, Helvetica, sans-serif" font-size="22">Real pages. Visible evidence. A review before the next step.</text>
+<rect x="64" y="348" width="157" height="26" fill="#E6F5A7"/>
+<text x="76" y="366" fill="#003D2E" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1">BY MIGUEL ALMEIDA</text>
+<text x="1136" y="366" text-anchor="end" fill="#527062" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="1">PYTHON / CHROMIUM / MCP</text>
+</svg>

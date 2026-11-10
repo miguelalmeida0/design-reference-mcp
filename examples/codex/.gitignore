@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+*.token
+*.key
+__pycache__/
+*.pyc
+reports/*
+!reports/.gitkeep
+.DS_Store
+
